@@ -1,0 +1,85 @@
+
+header{
+    background-color: #f1f1f1;;
+    width: 100%;
+    height: 7ch;
+    border-bottom-style: groove ;
+
+
+}
+
+#sectionOne img{
+    padding-top: 1ch;
+    padding-left: 1ch;
+}
+
+#sectionOne h2{
+    margin-left: 7ch;
+    margin-top: -3.5ch;
+    font-size: 3ch;
+}
+#sectionOne h6{
+    font-size: 1ch;
+    margin-left: 16ch;
+    color: gray;
+}
+
+#icons{
+    position: absolute;
+    left: 79ch;
+    top: 1ch; 
+}
+
+#sectionTwo h1{
+    font-size: 4ch;
+    font-weight: bolder;
+    font-family: "Big Shoulders Display", cursive;
+    margin-left: 0.5ch;
+}
+
+#sectionTwo h6{
+    font-size: 1ch;
+    font-family: "Big Shoulders Display", cursive;
+    margin-left: 2ch;
+    color:gray; 
+}
+
+#print{
+    position: absolute;
+    left: 105ch;
+    top: 10ch;
+
+}
+
+#printt p{
+    position: absolute;
+    left: 107ch;
+    top:10ch ;
+}
+
+#big{
+    position: relative;
+    left: 1ch;
+    top: 1.2ch;  
+}
+
+#paras p{
+    position: relative;
+    /* border: solid tomato; */
+    width: 45%;
+    top: 1.5ch;
+    left: 1ch;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+form{
+position: relative;
+top: 1.9ch;
+background-image: url("imgs/list-bg.png");
+
+}
+
+
+
+
