@@ -1,4 +1,5 @@
 
+
 header{
     background-color: #f1f1f1;;
     width: 100%;
@@ -14,9 +15,10 @@ header{
 }
 
 #sectionOne h2{
-    margin-left: 7ch;
-    margin-top: -3.5ch;
+    margin-left: 6.1ch;
+    margin-top: -3ch;
     font-size: 3ch;
+    font-family: "Yellowtail", cursive;
 }
 #sectionOne h6{
     font-size: 1ch;
@@ -26,8 +28,19 @@ header{
 
 #icons{
     position: absolute;
-    left: 79ch;
+    left: 76ch;
     top: 1ch; 
+    opacity: 0.8;
+    transition: 0.3s;
+}
+#icons :last-child {
+    position: relative;
+    right: -1ch;
+  }
+
+#icons img:nth-child(7) {
+    position: relative;
+    right: -2ch;
 }
 
 #sectionTwo h1{
@@ -66,19 +79,117 @@ header{
 #paras p{
     position: relative;
     /* border: solid tomato; */
-    width: 45%;
+    width: 58%;
     top: 1.5ch;
-    left: 1ch;
+    left: 1rem;
     text-align: justify;
     text-justify: inter-word;
+    
 }
 
-form{
-position: relative;
-top: 1.9ch;
-background-image: url("imgs/list-bg.png");
-
+fieldset {
+    position: relative;
+    width: 60%;
+    height: 315px;
+    margin-top: 2rem;
+    background-image: url(https://github.com/LTUC/amman-irbid-201d31/blob/main/class-10/lab-a/lab-assets/list-bg.png?raw=true);
+    background-size: cover;
 }
+
+form #firstInputs{
+  font-size:  2ch;
+  position: absolute;
+  display: flex;
+  flex-direction: column; 
+  top: 2rem;
+  left: 4rem;
+  font-family: "Patrick Hand", cursive;
+  color: hsla(36, 27%, 20%, 0.761);
+  width: 20rem;
+}
+#firstInputs label, input {
+    padding-top: 0.1ch;
+    display: inline-block;
+}
+
+
+form #lastInputs {
+    font-size: 2ch;
+    position: absolute;
+    display: flex;
+    flex-direction: column; 
+    top: 2rem;
+    right: -1rem;
+    font-family: "Patrick Hand", cursive;
+    color: hsla(36, 27%, 31%, 0.761);
+    width: 20rem;
+    
+}
+
+#lastInputs label {
+    
+    padding-top: 7px;
+    display: inline-block;
+}
+
+#lastInputs label, input {
+    padding-top: 0.1ch;
+    display: inline-block;
+}
+
+.foot{
+    /* border: solid tomato; */
+    margin-top: 1rem;
+    position: relative;
+    height: 7rem;
+}
+
+.foot h3 {
+    position: absolute;
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 3ch;
+    font-weight: bold;
+    left: 5rem;
+    top: 0.5rem;
+}
+
+.foot h5 {
+    position: absolute;
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 1.5ch;
+    left: 5rem;
+    top: 3rem;
+    color: #00000079;
+}
+
+.foot button{
+    position: relative;
+    right: -42rem;
+    top: -2.5rem;
+    font-weight: bolder;
+    padding: 10px;
+    width: 10rem;
+    font-size: 2ch;
+    color: hsla(0, 0%, 100%, 0.679);
+    background-color: #a03021b0;
+    border-color: #f9f9f9;
+    border-style: solid;
+    font-family: "Big Shoulders Display", cursive;
+    text-decoration: none;
+}
+
+footer  {
+    text-align: center;
+    width: 57%;
+    height: 30ch;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2ch;
+    color:#13121267; 
+}
+  
+
+
+
 
 
 
